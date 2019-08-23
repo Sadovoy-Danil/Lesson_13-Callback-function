@@ -16,6 +16,8 @@ function learnJS(lang, callback) {
     callback();
 }
 
-learnJS("JavaSript", function() {
+function done() {
     console.log("Я прошел 3й урок!");
-});
+}
+
+learnJS("JavaSript", done);
